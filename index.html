@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD Responsive Image Gallery with Lightbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Image Gallery</h1>
+        <p>Click any image to view in full screen.</p>
+    </header>
+
+    <main class="gallery-container">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=85" alt="Alpine Lake & Mountains" data-index="0">
+            <div class="caption">Alpine Lake & Mountains</div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=85" alt="Misty Wilderness Forest" data-index="1">
+            <div class="caption">Misty Wilderness Forest</div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+<!-- Gallery Item 3 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=85" alt="Emerald River Valley" data-index="2">
+            <div class="caption">Emerald River Valley</div>
+        </div>
+
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1511884642898-4c92249e20b6?auto=format&fit=crop&w=1600&q=85" alt="Snow Peaks at Sunset" data-index="3">
+            <div class="caption">Snow Peaks at Sunset</div>
+        </div>
+
+        <!-- Gallery Item 5 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1600&q=85" alt="Deep Pine Forest Sunlight" data-index="4">
+            <div class="caption">Deep Pine Forest Sunlight</div>
+        </div>
+
+        <!-- Gallery Item 6 -->
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85" alt="Majestic Mountain Ridge" data-index="5">
+            <div class="caption">Majestic Mountain Ridge</div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal Overlay -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <a class="prev-btn">&#10094;</a>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+        <a class="next-btn">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
