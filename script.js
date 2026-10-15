@@ -9,7 +9,7 @@ const nextBtn = document.querySelector('.next-btn');
 let currentIndex = 0;
 const imagesData = [];
 
-// Collect image sources and captions
+
 galleryItems.forEach((item, index) => {
     const img = item.querySelector('img');
     const caption = item.querySelector('.caption').innerText;
